@@ -110,7 +110,8 @@ header .content-wrapper {
 
 header nav {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -260,7 +261,7 @@ footer .social p {
 .faq-content-wrapper {
   display: flex;
   align-items: space-between;
-  
+
 }
 
 /* ==========================================================================
