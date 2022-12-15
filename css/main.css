@@ -134,8 +134,13 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 18%;
+  width: 20%;
   
+}
+
+header nav ul li {
+  display: flex;
+
 }
 
 /****** Mobile Styles **********/
@@ -303,6 +308,11 @@ footer .social p {
 }
 
 /****** About Page *******/
+.about-header-nav-ul {
+  width: 35%;
+
+}
+
 .mission {
   display: flex;
   justify-content: center;
@@ -322,6 +332,11 @@ footer .social p {
 }
 
 /****** FAQ Page ********/
+.faq-header-nav-ul {
+  width: 35%
+  
+}
+
 .faq-content {
   display: flex;
   justify-content: center;
