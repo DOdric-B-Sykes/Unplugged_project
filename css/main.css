@@ -121,6 +121,16 @@ header .content-wrapper {
 
 }
 
+.header-divider a {
+  text-align: center;
+
+}
+
+.header-divider a img {
+  width: 50%;
+
+}
+
 header nav {
   display: flex;
   align-items: center;
@@ -334,7 +344,7 @@ footer .social p {
 /****** FAQ Page ********/
 .faq-header-nav-ul {
   width: 35%
-  
+
 }
 
 .faq-content {
