@@ -167,8 +167,8 @@ header nav ul li {
 
 aside {
   display: flex;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: flex-start;
+  align-items: center;
   flex-flow: row wrap;
   padding: 25px 20px 50px 20px;
 
@@ -179,20 +179,29 @@ aside {
 }
 
 .form {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.form input {
+  width: 100%;
 
 }
 
 .features {
   display: flex;
-  align-items: space-between;
+  align-items: center;
   justify-content: center;
+  flex-flow: row wrap;
   padding: 40px 30px 30px 20px;
-
 
 }
 
 .features-heading {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  
 }
 
 .features-items {
@@ -239,6 +248,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   padding: 50px 20px 40px 20px;
 
 }
