@@ -136,7 +136,7 @@ header nav {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 100%;
 
 }
 
@@ -221,6 +221,11 @@ aside {
 
 }
 
+.features article p {
+  margin: 0;
+
+}
+
 .fontawesome-icon {
   display: flex;
   align-items: center;
@@ -300,7 +305,7 @@ footer .contact h3 {
 
 }
 
-address p {
+footer p {
   margin: 0;
 
 }
