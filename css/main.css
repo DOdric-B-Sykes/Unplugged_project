@@ -122,7 +122,8 @@ header .content-wrapper {
 }
 
 .header-divider a {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -479,15 +480,37 @@ footer .social p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
+header .content-wrapper {
+  flex-flow: row nowrap;
+  width: 100%;
+  padding: 20px 60px;
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+.header-divider a {
+  justify-content: flex-start;
+
+}
+
+header nav {
+  justify-content: flex-end;
+
+}
+
+header nav ul {
+  width: 30%;
+  
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+
+
 }
 
 /* ==========================================================================
