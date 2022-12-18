@@ -201,7 +201,7 @@ aside {
 .features-heading {
   padding-bottom: 30px;
   text-align: center;
-  
+
 }
 
 .features-items {
@@ -281,20 +281,27 @@ footer .content-wrapper {
 }
 
 .footer-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 
 }
 
 footer .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 40px;
+  text-align: center;
+  width: 100%;
 
 }
 
 footer .contact h3 {
   padding-bottom: 15px;
   text-align: center;
+
+}
+
+address p {
+  margin: 0;
 
 }
 
@@ -351,6 +358,11 @@ footer .social p {
 
 }
 
+.contact-wrapper, .contact-content {
+  width: 100%;
+
+}
+
 /****** FAQ Page ********/
 .faq-header-nav-ul {
   width: 35%
@@ -367,7 +379,9 @@ footer .social p {
 
 .faq-content-wrapper {
   display: flex;
-  align-items: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
   padding: 40px 20px;
 
 }
