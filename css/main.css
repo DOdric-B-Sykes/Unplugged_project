@@ -385,7 +385,7 @@ footer .social p {
 .faq-content-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: row wrap;
   padding: 40px 20px;
 
