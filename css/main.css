@@ -252,7 +252,7 @@ aside {
 
 .reviews .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
   padding: 50px 20px 40px 20px;
@@ -261,6 +261,16 @@ aside {
 
 .reviews .content-wrapper h1 {
   padding-bottom: 20px;
+
+}
+
+.reviews .image {
+  width: 100%;
+
+}
+
+.image img {
+  width: 80%;
 
 }
 
