@@ -312,9 +312,8 @@ footer p {
 }
 
 footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  width: 100%;
 
 }
 
@@ -482,6 +481,8 @@ footer .social p {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
+  /*Home Page*/
+
 header .content-wrapper {
   flex-flow: row nowrap;
   width: 100%;
@@ -501,7 +502,44 @@ header nav {
 
 header nav ul {
   width: 30%;
-  
+
+}
+
+aside {
+  flex-flow: row nowrap;
+  width: 100%;
+
+}
+
+.form-description, form {
+  width: 50%;
+
+}
+
+.features-items article {
+  width: 50%;
+
+}
+
+footer .content-wrapper {
+  width: 100%;
+
+}
+
+.footer-content {
+  flex-flow: row nowrap;
+  width: 100%;
+
+}
+
+footer .contact {
+  width: 50%;
+
+}
+
+footer .social {
+  width: 50%;
+
 }
 
 }
