@@ -264,13 +264,19 @@ aside {
 
 }
 
-.reviews .image {
+article {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+article .image {
   width: 100%;
 
 }
 
 .image img {
-  width: 80%;
+  width: 90%;
 
 }
 
@@ -491,7 +497,7 @@ footer .social p {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
-  /*Home Page*/
+  /**** Home Page *****/
 
 header .content-wrapper {
   flex-flow: row nowrap;
@@ -527,6 +533,22 @@ aside {
 }
 
 .features-items article {
+  flex-basis: 50%;
+
+}
+
+article {
+  flex-flow: row nowrap;
+  width: 100%;
+
+}
+
+article .image {
+  width: 50%;
+
+}
+
+article .image-descrip {
   width: 50%;
 
 }
@@ -551,6 +573,37 @@ footer .social {
   width: 50%;
 
 }
+
+/**** About Page ****/
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.contact-section .contact-wrapper h2 {
+  width: 100%;
+
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+
+}
+
+.General-info, .Facilitator-contact {
+  width: 50%;
+
+}
+
+/****** FAQ Page *****/
+
 
 }
 
