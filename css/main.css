@@ -407,6 +407,19 @@ footer .social p {
 
 }
 
+.faq-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.faq-content, .faq-content-wrapper, .faq-heading, .faq-section {
+  width: 100%;
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -583,6 +596,11 @@ footer .social {
 
 }
 
+.contact-wrapper {
+width: 85%;
+
+}
+
 .contact-section .contact-wrapper h2 {
   width: 100%;
 
@@ -591,19 +609,24 @@ footer .social {
 .contact-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row nowrap;
   width: 100%;
 
 }
 
 .General-info, .Facilitator-contact {
+  padding-left: 60px;
   width: 50%;
 
 }
 
 /****** FAQ Page *****/
 
+.faq-entries {
+  width: 50%;
+  
+}
 
 }
 
